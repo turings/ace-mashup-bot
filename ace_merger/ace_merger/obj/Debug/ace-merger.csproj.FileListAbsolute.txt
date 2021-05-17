@@ -1,0 +1,10 @@
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\bin\Debug\ace-merger.exe.config
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\bin\Debug\ace-merger.exe
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\bin\Debug\ace-merger.pdb
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\obj\Debug\ace-merger.csprojAssemblyReference.cache
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\obj\Debug\AceMerger.frmMerge.resources
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\obj\Debug\ace-merger.Properties.Resources.resources
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\obj\Debug\ace-merger.csproj.GenerateResource.cache
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\obj\Debug\ace-merger.csproj.CoreCompileInputs.cache
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\obj\Debug\ace-merger.exe
+C:\Users\mpoli\source\repos\ace-merger\ace-merger\obj\Debug\ace-merger.pdb
