@@ -8,3 +8,13 @@ C:\Users\mpoli\source\repos\ace_merger\ace_merger\obj\Debug\ace_merger.csproj.Ge
 C:\Users\mpoli\source\repos\ace_merger\ace_merger\obj\Debug\ace_merger.csproj.CoreCompileInputs.cache
 C:\Users\mpoli\source\repos\ace_merger\ace_merger\obj\Debug\ace_merger.exe
 C:\Users\mpoli\source\repos\ace_merger\ace_merger\obj\Debug\ace_merger.pdb
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\bin\Debug\ace_merger.exe.config
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\bin\Debug\ace_merger.exe
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\bin\Debug\ace_merger.pdb
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\obj\Debug\ace_merger.csprojAssemblyReference.cache
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\obj\Debug\AceMerger.frmMerge.resources
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\obj\Debug\ace_merger.Properties.Resources.resources
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\obj\Debug\ace_merger.csproj.GenerateResource.cache
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\obj\Debug\ace_merger.csproj.CoreCompileInputs.cache
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\obj\Debug\ace_merger.exe
+C:\Users\mpoli\source\repos\ace_mashup_bot\ace_merger\ace_merger\obj\Debug\ace_merger.pdb

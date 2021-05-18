@@ -19,11 +19,21 @@ def tweet_mashup():
     if ("[" in name):
         index = name.find("[")
         name = name[:index]
+    # Grab the full character names from the file name
+    index = name.find("&")
+    headname = name[:index]
+    bodyname = name[index + 1:]
     # Extract the first and last name from the file path
-    if ("!" in name):
-        index = name.find("!")
-        firstname = name[:index]
-        lastname = name[index + 1:]
+    if ("!" in headname):
+        index = headname.find("!")
+        firstname = headname[:index]
+    if ("!" in bodyname):
+        index = bodyname.find("!")
+        lastname = bodyname[index + 1:]
+    # Format the full names for the alt-text
+    headname = headname.replace("!", " ")
+    bodyname = bodyname.replace("!", " ")
+    alttext = "it's " + headname + "'s head on " + bodyname + "'s body"
     # Tweet the file along with the name
     logger.info("Tweeting mashup")
     file = os.environ['MONSTROSITIES_FOLDER'] + "/" + file
@@ -47,7 +57,7 @@ def tweet_mashup():
     api_base_url = hostinstance
     )
     # Post
-    media = mastodon.media_post(file)
+    media = mastodon.media_post(file, description=alttext)
     mastodon.status_post(firstname + " " + lastname, media_ids=media)
     # Move the file to the 'Tweeted' folder
     logger.info("Moving to 'Tweeted' folder")

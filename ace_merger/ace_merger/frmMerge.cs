@@ -52,14 +52,18 @@ namespace AceMerger
             Bitmap body = LoadImage(bodyPath);
             string headName = Path.GetFileNameWithoutExtension(headPath);
             string bodyName = Path.GetFileNameWithoutExtension(bodyPath);
-            // Get the first name of the head, and the last name of the body (provided there are two names)
-            if(headName.Contains("!"))
-                headName = headName.Substring(0, headName.IndexOf("!"));
-            if (bodyName.Contains("!"))
-            {
-                int index = bodyName.IndexOf("!");
-                bodyName = bodyName.Substring(index + 1, bodyName.Length - index - 1);
-            }
+            // 18/05: Won't split this til it's been passed through the bot, as need full names for alt-text
+            //// Get the first name of the head, and the last name of the body (provided there are two names)
+            //if(headName.Contains("!"))
+            //{
+            //    headName = headName.Substring(0, headName.IndexOf("!"));
+
+            //}
+            //if (bodyName.Contains("!"))
+            //{
+            //    int index = bodyName.IndexOf("!");
+            //    bodyName = bodyName.Substring(index + 1, bodyName.Length - index - 1);
+            //}
             // Merge images
             var target = new Bitmap(courtroom.Width, courtroom.Height);
             var graphics = Graphics.FromImage(target);
@@ -72,7 +76,7 @@ namespace AceMerger
             graphics.DrawImage(head, (courtroom.Width / 2) - (head.Width / 2), (courtroom.Height - body.Height - head.Height) + 1, head.Width, head.Height);
             // Position box bar over character to make it look as though they're in the witness box
             graphics.DrawImage(box, 0, 0, courtroom.Width, courtroom.Height);
-            target.Save(@"Monstrosities\" + headName + "!" + bodyName + ".png", ImageFormat.Png);
+            target.Save(@"Monstrosities\" + headName + "&" + bodyName + ".png", ImageFormat.Png);
             target.Dispose();
             graphics.Dispose();
             courtroom.Dispose();
